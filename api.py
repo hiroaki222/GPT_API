@@ -19,7 +19,10 @@ def call(content):
     )
     return res
 
-res = call('repeat "yes"')
+f = open('input.txt', 'r')
+input = f.read()
+f.close()
+res = call(input)
 
 print(f'response : {res["choices"][0]["message"]["content"]}')
 
