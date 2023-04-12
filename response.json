@@ -1,0 +1,45 @@
+{
+    "remaining": "1.9992220000000003",
+    "2023-04-11 15:18:03.809515": {
+        "id": "chatcmpl-73glc4aacZT0It4ImcF3pdZkZSLIG",
+        "object": "chat.completion",
+        "created": 1681113736,
+        "model": "gpt-3.5-turbo-0301",
+        "usage": {
+            "prompt_tokens": 12,
+            "completion_tokens": 2,
+            "total_tokens": 14
+        },
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": "Yes."
+                },
+                "finish_reason": "stop",
+                "index": 0
+            }
+        ]
+    },
+    "2023-04-12 09:37:53.822870": {
+        "id": "chatcmpl-74Imgep0dTDzXRGohgRBpNoBkJzZn",
+        "object": "chat.completion",
+        "created": 1681259874,
+        "model": "gpt-3.5-turbo-0301",
+        "usage": {
+            "prompt_tokens": 12,
+            "completion_tokens": 2,
+            "total_tokens": 14
+        },
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": "Yes."
+                },
+                "finish_reason": "stop",
+                "index": 0
+            }
+        ]
+    }
+}
